@@ -6,11 +6,11 @@ braille-random — A Node.js library for generating random dot6 braille characte
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Introduction to braille-random](#introduction-to-braille-random)
-    - [Installation](#installation)
-- [Usage](#usage)
-- [Contribution](#contribution)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
   - [Code of Conduct](#code-of-conduct)
-    - [License](#license)
+  - [License](#license)
   - [MIT License](#mit-license)
 
 Getting Started
@@ -23,14 +23,14 @@ available as an [npm package](https://npmjs.org/package/braille-random).
 
 braille-random allows you to generate random dot6 braille characters from a given amount of characters.
 
-### Installation
+## Installation
 
 Install braille-random locally via npm:
 
 ```bash
 npm install braille-random
 ```
-# Usage
+## Usage
 
 Import it in a file and call the function
 
@@ -42,7 +42,7 @@ brailleRandom(3)
 console.log(brailleRandom(3)) // prints ⠭⠒⠇
 ```
 
-# Contribution
+## Contribution
 
 braille-random is under development, therefore it would be very much appreciated if you collaborate with us.
 
@@ -58,7 +58,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 Respect others in all levels and expect to receive the same treatment back.
 
-### License
+## License
 
 MIT License
 ----
