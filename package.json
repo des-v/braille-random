@@ -1,5 +1,5 @@
 {
-  "name": "braille-random",
+  "name": "@des-v/braille-random",
   "version": "1.0.1",
   "description": "An npm library that allows you to generate random dot6 braille characters",
   "main": "src/index.js",
