@@ -28,14 +28,14 @@ braille-random allows you to generate random dot6 braille characters from a give
 Install braille-random locally via npm:
 
 ```bash
-npm install braille-random
+npm install @des-v/braille-random
 ```
 ## Usage
 
 Import it in a file and call the function
 
 ```js
-const brailleRandom = require('braille-random');
+const brailleRandom = require('@des-v/braille-random');
 
 brailleRandom(3)
 
@@ -63,7 +63,7 @@ Respect others in all levels and expect to receive the same treatment back.
 MIT License
 ----
 
-Copyright (c) 2021 Desiree Valdes
+Copyright (c) 2021-2022 Desiree Valdes
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
