@@ -1,5 +1,5 @@
 {
-  "name": "@des-v/braille-random",
+  "name": "braille-random",
   "version": "1.0.1",
   "description": "An npm library that allows you to generate random dot6 braille characters",
   "main": "src/index.js",
@@ -7,8 +7,7 @@
     "start": "node ./src/index.js",
     "test": "jest --testEnvironment=node --verbose --forceExit --maxWorkers=1",
     "test-watch": "jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1",
-    "test-coverage": " jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1",
-    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test-coverage": " jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1"
   },
   "repository": {
     "type": "git",
@@ -31,7 +30,6 @@
   },
   "homepage": "https://github.com/des-v/braille-random#readme",
   "devDependencies": {
-    "coveralls": "^3.1.1",
     "jest": "^27.3.1"
   }
 }
